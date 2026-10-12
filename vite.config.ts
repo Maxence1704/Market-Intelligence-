@@ -1,12 +1,11 @@
 import { defineConfig } from 'vite'
 import react from '@vitejs/plugin-react'
 
-// GitHub Pages base — change if repo name different
-// For https://username.github.io/market-intelligence/ → base: '/market-intelligence/'
-// For custom domain or root → base: '/'
+// FIX pour ton repo: maxence1704.github.io/Market-Intelligence-/
+// Le base DOIT correspondre exactement au nom du repo
 export default defineConfig({
   plugins: [react()],
-  base: './',
+  base: '/Market-Intelligence-/', // <-- IMPORTANT pour ton repo
   server: {
     port: 3000,
     host: '0.0.0.0'
