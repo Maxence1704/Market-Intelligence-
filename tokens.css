@@ -1,0 +1,38 @@
+:root{
+  --bg:#08080A;
+  --bg-soft:#0F0F11;
+  --bg-elevated:#121214;
+  --panel:#151518;
+  --panel-2:#1C1C20;
+  --card:#18181B;
+  --card-hover:#1F1F23;
+  --card-active:#242428;
+  --border:#232326;
+  --border-2:#2A2A2E;
+  --border-strong:#34343A;
+  --text:#F5F5F0;
+  --text-2:#A8A8AE;
+  --text-3:#6B6B72;
+  --accent:#EDEBE6;
+  --green:#22C55E;
+  --green-dim:rgba(34,197,94,0.12);
+  --green-border:rgba(34,197,94,0.22);
+  --red:#EF4444;
+  --red-dim:rgba(239,68,68,0.12);
+  --red-border:rgba(239,68,68,0.22);
+  --yellow:#EAB308;
+  --yellow-dim:rgba(234,179,8,0.12);
+  --blue:#60A5FA;
+  --blue-dim:rgba(96,165,250,0.12);
+  --radius-sm:12px;
+  --radius-md:16px;
+  --radius-lg:20px;
+  --radius-xl:24px;
+  --radius-2xl:28px;
+  --radius-full:999px;
+  --shadow-sm:0 1px 2px rgba(0,0,0,0.2), 0 0 0 1px rgba(255,255,255,0.04) inset;
+  --shadow-md:0 4px 12px rgba(0,0,0,0.25), 0 0 0 1px rgba(255,255,255,0.05) inset;
+  --shadow-lg:0 12px 32px rgba(0,0,0,0.35), 0 0 0 1px rgba(255,255,255,0.06) inset;
+  --mono: "JetBrains Mono", ui-monospace, SFMono-Regular, Menlo, monospace;
+  --sans: "Inter", -apple-system, BlinkMacSystemFont, "SF Pro Display", Segoe UI, Roboto, sans-serif;
+}
